@@ -3,10 +3,10 @@ const image = document.querySelector("img");
 image.onclick = () => {
   const src = image.getAttribute("src");
 
-  if (src == "images/1.jpg") {
-    image.setAttribute("src", "images/2.jpg");
+  if (src == "images/01.jpg") {
+    image.setAttribute("src", "images/02.jpg");
   } else {
-    image.setAttribute("src", "images/1.jpg");
+    image.setAttribute("src", "images/01.jpg");
   }
 };
 
