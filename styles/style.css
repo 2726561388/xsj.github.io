@@ -32,3 +32,6 @@ ol,
 ul {
   background-color: aquamarine;
 }
+button:hover {
+  background-color: darkblue;
+}
