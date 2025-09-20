@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=devcie-width" />
     <title>消费记录</title>
     <link href="table.css" rel="stylesheet" type="text/css" />
-    <style></style>
+    <style>
+      tbody {
+        font-size: 95%;
+        font-style: italic;
+      }
+      tfoot {
+        font-weight: bold;
+      }
+    </style>
   </head>
   <body>
     <h1>My spending record</h1>
@@ -13,45 +21,49 @@
       <caption>
         我的消费
       </caption>
-      <tr>
-        <th>Purchase</th>
-        <th>Location</th>
-        <th>Date</th>
-        <th>Evaluation</th>
-        <th>Cost (€)</th>
-      </tr>
-      <tr>
-        <td>SUM</td>
+      <thead>
+        <tr>
+          <th>消费</th>
+          <th>位置</th>
+          <th>日期</th>
+          <th>描述</th>
+          <th>花费 (€)</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <td colspan="4">总和</td>
         <td>118</td>
-      </tr>
-      <tr>
-        <td>Haircut</td>
-        <td>Hairdresser</td>
-        <td>12/09</td>
-        <td>Great idea</td>
-        <td>30</td>
-      </tr>
-      <tr>
-        <td>Lasagna</td>
-        <td>Restaurant</td>
-        <td>12/09</td>
-        <td>Regrets</td>
-        <td>18</td>
-      </tr>
-      <tr>
-        <td>Shoes</td>
-        <td>Shoeshop</td>
-        <td>13/09</td>
-        <td>Big regrets</td>
-        <td>65</td>
-      </tr>
-      <tr>
-        <td>Toothpaste</td>
-        <td>Supermarket</td>
-        <td>13/09</td>
-        <td>Good</td>
-        <td>5</td>
-      </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>理发</td>
+          <td>理发店</td>
+          <td>12/09</td>
+          <td>不错</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>千层面</td>
+          <td>餐馆</td>
+          <td>12/09</td>
+          <td>不好</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>鞋子</td>
+          <td>鞋店</td>
+          <td>13/09</td>
+          <td>很不好</td>
+          <td>65</td>
+        </tr>
+        <tr>
+          <td>牙膏</td>
+          <td>超市</td>
+          <td>13/09</td>
+          <td>好</td>
+          <td>5</td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
