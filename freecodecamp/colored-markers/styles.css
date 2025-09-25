@@ -1,25 +1,33 @@
 h1 {
-    text-align: center;
+  text-align: center;
 }
 .container {
-    padding: 10px 0;
-    background-color: white;
+  padding: 10px 0;
+  background-color: white;
 }
 .marker {
-    width: 200px;
-    height: 25px;
-    margin: 10px auto;
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
 }
 .red {
-  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  background: linear-gradient(
+    rgb(122, 74, 14),
+    rgb(245, 62, 113),
+    rgb(162, 27, 27)
+  );
   box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
 }
 .green {
-  background: linear-gradient(#55680D, #71F53E, #116C31);
-  box-shadow: 0 0 20px 0 #3B7E20CC;
+  background: linear-gradient(#55680d, #71f53e, #116c31);
+  box-shadow: 0 0 20px 0 #3b7e20cc;
 }
 .blue {
-  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  background: linear-gradient(
+    hsl(186, 76%, 16%),
+    hsl(223, 90%, 60%),
+    hsl(240, 56%, 42%)
+  );
   box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
 }
 .cap {
@@ -34,5 +42,5 @@ h1 {
 }
 .cap,
 .sleeve {
-    display: inline-block;
+  display: inline-block;
 }
